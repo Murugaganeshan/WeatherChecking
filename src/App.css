@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #2f3640;
+    align-items: center;
+}
+.container {
+    width: 350px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.input-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 2px solid #70e6f3;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.cityInput{
+flex:1;
+height: 30px;
+border: none;
+font-size: 16px;
+outline: none;
+padding: 10px;
+}
+.search-icon img{
+    height: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+.image{
+    text-align: center;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.image img{
+    width: 160px;
+    height: 160px;
+}
+.temp,.location,.country{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 35px;
+    color: #333;
+    text-transform: uppercase;
+}
+.cord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.cord div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.data-contain{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.element{
+    text-align: center;
+}
+.icon {
+    height: 50px;
+    width: 50px;
+}
+.humidity-percent{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.text{
+    margin-top: 5px;
+    font-size: 12px;
+}
+.loading-message,
+.error-message,
+.city-notfound{
+    margin-top: 10px;
+    color: #888;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
